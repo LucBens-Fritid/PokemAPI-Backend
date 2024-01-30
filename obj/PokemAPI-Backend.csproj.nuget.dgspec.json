@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj": {}
+    "d:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj": {}
   },
   "projects": {
-    "D:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj": {
+    "d:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj",
+        "projectUniqueName": "d:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj",
         "projectName": "PokemAPI-Backend",
-        "projectPath": "D:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj",
+        "projectPath": "d:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\PokemAPI-Backend.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\obj\\",
+        "outputPath": "d:\\Programmering\\Lucbens-Fritid\\PokemAPI-Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
