@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PokemAPI-Backend.props" />
+</Project>

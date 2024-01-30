@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YRgiLgXNABqpFpyoG9CrK8a9q7OM3VVjpwce+X8K/XM=",
+  "Source": "PokemAPI-Backend",
+  "BasePath": "_content/PokemAPI-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
