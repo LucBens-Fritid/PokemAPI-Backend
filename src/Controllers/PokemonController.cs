@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace PokemAPI_Backend.Controllers;
 
 [ApiController]
-[Route("api[controller]")]
+[Route("api")]
 public class PokemonController : ControllerBase
 {
      private readonly HttpClient _httpClient;
@@ -22,7 +22,7 @@ public class PokemonController : ControllerBase
 
 
 
-    [HttpGet("ByName/{name}")]
+    [HttpGet("pokemon/{name}")]
     public async Task<IActionResult> GetPokemonByName(string name)
     {
         try {
@@ -34,9 +34,9 @@ public class PokemonController : ControllerBase
                 var pokemon = JsonSerializer.Deserialize<Pokemon>(result);
 
                 var pokemonInfo = new {
-                    Id = pokemon.Id,
-                    Name = pokemon.Name,
-                    ImageUrl = pokemon.Sprites.FrontDefault
+                    id = pokemon.Id,
+                    name = pokemon.Name,
+                    url = pokemon.Sprites.FrontDefault
 
                 };
                 
@@ -52,7 +52,7 @@ public class PokemonController : ControllerBase
         return StatusCode(500);
     }
 
-    [HttpGet("ById/{id}")]
+    [HttpGet("pokemon/{id}:int")]
     public async Task<IActionResult> GetPokemonById(int id)
     {
         try {
